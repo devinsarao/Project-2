@@ -4,4 +4,4 @@ class Main {
     //Start of Politcal Poll//
       System.out.println("Welcome to the offical Political Poll!");
  
-        
+       
