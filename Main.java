@@ -12,5 +12,12 @@ class Main {
         }
  //Scanner for poll questions!//
       Scanner scan = new Scanner(System.in);
+  System.out.println("What's your government name?"); //Taking in voter information//
+        String name = scan.next();
+        name += scan.nextLine();//Use code if more than one word//
+      Scanner number = new Scanner(System.in);
  
-       
+        System.out.println("Which canidate is better? Trump or Biden"); //Presidental Canidate Question//
+        String canidates = scan.next();
+ 
+        
