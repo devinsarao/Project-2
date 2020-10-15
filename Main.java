@@ -10,4 +10,7 @@ class Main {
           System.out.println("You are a republican!");
  
         }
+ //Scanner for poll questions!//
+      Scanner scan = new Scanner(System.in);
  
+       
