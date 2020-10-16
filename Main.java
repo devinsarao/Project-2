@@ -44,9 +44,23 @@ class Main {
           System.out.println(a);
           a++;
         }
-        System.out.print("50 states to vote in!");
+        System.out.println("50 states to vote in!");
+        for(int b = 0; b < 0; a++){
+          System.out.println(a);
         }
+        System.out.println("Congrats! You can now vote in any state!");
+        //this will shows if the weather is good enough to go vote
+        boolean sunny = true;
+        boolean cold = true;
+        int temperature = 71;
+        if (sunny || temperature > 60 && !cold)
+          System.out.println("It is good weather to cast your vote!");
+        else if (!sunny || temperature > 75 && cold)
+        {
+            System.out.println("It is not good weather to go and cast your vote too!");
         }
+      }
+      }
       
     
   
