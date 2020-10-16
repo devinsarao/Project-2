@@ -24,7 +24,7 @@ class Main {
           for(int i = 0; i<5; i++){ //Loop can work for Biden and Trump//
             System.out.println("Donald Trump!");
           }
-          }else{
+          }else
           for(int i = 0; i<1; i++){
             System.out.println("Joe Biden!");
           }
@@ -38,26 +38,18 @@ class Main {
         }
         else if(grade >= 0 && grade < 89) {
           System.out.println("This is an unacceptable rating!");
-
-          int a = 0;
-          while (count <= 50)
-        {
-          System.out.println(count);
-
-          count++;
         }
-        //how to check how many states they won
-        if (states < 0){
-          System.out.println("There are 50 states that can be won.")
+        int a = 0;
+        while(a < 50){
+          System.out.println(a);
+          a++;
         }
-        else if (states == 0){
-          System.out.println("There are no states that can be won.")
+        System.out.print("50 states to vote in!");
         }
-        
         }
-      }
-    }
-  }
+      
+    
+  
  
        
           
