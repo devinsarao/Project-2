@@ -25,7 +25,7 @@ class Main {
             System.out.println("Donald Trump!");
           }
           }else{
-          for(int i = 0; i<3; i++){
+          for(int i = 0; i<1; i++){
             System.out.println("Joe Biden!");
           }
       
@@ -40,12 +40,12 @@ class Main {
           System.out.println("This is an unacceptable rating!");
 
           int a = 0;
+          while (count <= 50)
+        {
+          System.out.println(count);
 
-          while(a < 50) {
-            System.out.println(a);
-            a++;
-            System.out.print("This is how many states there are that they can win!");
-          }
+          count++;
+        }
         }
       }
     }
