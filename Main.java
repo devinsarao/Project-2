@@ -47,6 +47,13 @@ class Main {
           count++;
         }
         //how to check how many states they won
+        if (states < 0){
+          System.out.println("There are 50 states that can be won.")
+        }
+        else if (states == 0){
+          System.out.println("There are no states that can be won.")
+        }
+        
         }
       }
     }
