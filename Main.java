@@ -46,6 +46,7 @@ class Main {
 
           count++;
         }
+        //how to check how many states they won
         }
       }
     }
